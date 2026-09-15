@@ -2,7 +2,7 @@ name: Update RSS Feeds
 
 on:
   schedule:
-    - cron: '0 * * * *'  # hourly
+    - cron: '30 * * * *'  # hourly
   workflow_dispatch:
 
 permissions:
